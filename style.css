@@ -1,0 +1,213 @@
+body {
+    float: right;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C0E6FF;
+  }
+  .bg-black {
+      background-color: #402a43;
+    }
+  .absolute {
+      position: absolute;
+    }
+    
+  .relative {
+      position: relative;
+    }
+  .controller {
+      float: right;
+      width: 100%;
+      animation: floating 3s ease infinite;
+  }
+       
+  .circle{
+        width: 150px;
+        height: 150px;
+        float: right;
+        border: solid 7px #402a43;
+        border-radius: 50%;
+        } 
+  .circle-right{
+      left: 15px;
+      top: 10px;
+      background:#fff;
+    
+  }
+  .circle-left{
+      left: -165px;
+      top: 10px;
+      background:#fff;
+    
+  }
+  .body-controller{
+    width: 300px;
+    float: right;
+    height: 90px;
+    border: solid 7px #402a43;
+    left: -150px;
+    top: 10px;
+    background:#fff;
+    border-radius: 20%/50px 50px 0 0;
+    z-index: -1;
+  }
+  .controller-final{
+    width: 250px;
+    float: right;
+    height: 90px;
+    left: -121px;
+    top: 17px;
+    background:#fff;
+    border-radius: 15%/50px 50px 0 0;
+    z-index: 1;
+  }
+  .circle-small{
+        width: 130px;
+        height: 130px;
+        float: right;
+        border: solid 3px #402a43;
+        border-radius: 50%;
+        z-index:2;
+  }
+  .circle-small-right{
+    
+    left: 28px;
+      top: 25px;
+  }
+  .circle-small-left{
+    left: -150px;
+      top: 25px;
+    
+  }
+  .move-key-ws{
+        width: 20px;
+        height: 70px;
+        float: right;
+        border: solid 7px #402a43;
+        border-radius: 20%;
+        background: #23cf4f;
+        left: -100px;
+        top: 55px;
+        z-index: 3;
+  }
+  .move-key-ad{
+        width: 70px;
+        height: 20px;
+        float: right;
+        border: solid 7px #402a43;
+        border-radius: 20%;
+        background: #23cf4f;
+        left: -125px;
+        top: 80px;
+        z-index: 3;
+  }
+  .move-key-final{
+        width: 20px;
+        height: 45px;
+        float: right;
+        left: -93px;
+        top: 73px;
+        background: #23cf4f;
+        z-index: 3;
+  }
+  .w{
+        width: 25px;
+        height: 25px;
+        float: right;
+        border: solid 5px #402a43;
+        border-radius: 50%;
+        background:#59c3f0;
+        z-index:3;
+        left: 82px;
+        top: 48px;
+  }
+  .s{
+        width: 25px;
+        height: 25px;
+        float: right;
+        border: solid 5px #402a43;
+        border-radius: 50%;
+        background:#23cf4f;
+        z-index:3;
+        left: 82px;
+        top: 107px;
+  }
+  .a{
+        width: 25px;
+        height: 25px;
+        float: right;
+        border: solid 5px #402a43;
+        border-radius: 50%;
+        background:#fcd64b;
+        z-index:3;
+        left: 50px;
+        top: 79px;
+  }
+  .d{
+        width: 25px;
+        height: 25px;
+        float: right;
+        border: solid 5px #402a43;
+        border-radius: 50%;
+        background:#f05458;
+        z-index:3;
+        left: 115px;
+        top: 79px;
+  }
+  .power-up{
+        width: 30px;
+        height: 10px;
+        float: right;
+        border: solid 4px #402a43;
+        border-radius: 20%;
+        background: #f05458;
+        left: -13px;
+        top: 38px;
+        z-index: 3;
+  }
+  .power-down{
+         width: 30px;
+        height: 10px;
+        float: right;
+        border: solid 4px #402a43;
+        border-radius: 20%;
+        background: #fcd64b;
+        left: -13px;
+        top: 61px;
+        z-index: 3;
+  }
+  .speed{
+    width: 60px;
+        height: 20px;
+        float: right;
+        border: solid 7px #402a43;
+        border-radius: 30%;
+        background: #59c3f0;
+        left: 35px;
+        top: -1px;
+        z-index: -2;
+    
+  }
+  .change{
+    width: 60px;
+        height: 20px;
+        float: right;
+        border: solid 7px #402a43;
+        border-radius: 30%;
+        background: #59c3f0;
+        left: -100px;
+        top: -1px;
+        z-index: -2;
+  }
+  .wir{
+        width: 5px;
+        height: 100px;
+        float: right;
+        background: #402a43;
+        left: 3px;
+        top: -90px;
+        z-index: -2;
+  }
+  
